@@ -1,0 +1,227 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/temfiol">
+
+
+    <ImageView
+        android:id="@+id/imageView20"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/fon_nastroiki" />
+
+    <ImageView
+        android:id="@+id/imageViewSmenaParol"
+        android:layout_width="311dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="90dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageViewNastroiki"
+        app:srcCompat="@drawable/text_parol_secret" />
+
+    <ImageView
+        android:id="@+id/imageViewSecretKod"
+        android:layout_width="311dp"
+        android:layout_height="94dp"
+        android:layout_marginTop="70dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageViewSmenaParol"
+        app:srcCompat="@drawable/text_parol_secret" />
+
+    <ImageView
+        android:id="@+id/imageViewNastroiki"
+        android:layout_width="match_parent"
+        android:layout_height="129dp"
+        android:layout_marginTop="50dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/nastroiki_text" />
+
+    <ImageView
+        android:id="@+id/imageVixodIsPril"
+        android:layout_width="315dp"
+        android:layout_height="123dp"
+        android:layout_marginTop="75dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageViewSecretKod"
+        app:srcCompat="@drawable/vixod" />
+
+
+    <TextView
+        android:id="@+id/textViewVxod1"
+        android:layout_width="245dp"
+        android:layout_height="124dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginBottom="7dp"
+        android:fontFamily="@font/tiny5regular"
+        android:gravity="center"
+        android:text='Выход из аккаунта'
+        android:textColor="@color/black"
+        android:textSize="35sp"
+        app:layout_constraintBottom_toBottomOf="@+id/imageVixodIsPril"
+        app:layout_constraintEnd_toEndOf="@+id/imageVixodIsPril"
+        app:layout_constraintStart_toStartOf="@+id/imageVixodIsPril"
+        app:layout_constraintTop_toTopOf="@+id/imageVixodIsPril" />
+
+    <TextView
+        android:id="@+id/textViewVxod2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginBottom="16dp"
+        android:fontFamily="@font/tiny5regular"
+        android:text='Секретный код'
+        android:textColor="@color/black"
+        android:textSize="35sp"
+        app:layout_constraintBottom_toBottomOf="@+id/imageViewSecretKod"
+        app:layout_constraintEnd_toEndOf="@+id/imageViewSecretKod"
+        app:layout_constraintStart_toStartOf="@+id/imageViewSecretKod"
+        app:layout_constraintTop_toTopOf="@+id/imageViewSecretKod" />
+
+    <TextView
+        android:id="@+id/textViewVxod3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginBottom="16dp"
+        android:fontFamily="@font/tiny5regular"
+        android:text='Смена пароля'
+        android:textColor="@color/black"
+        android:textSize="35sp"
+        app:layout_constraintBottom_toBottomOf="@+id/imageViewSmenaParol"
+        app:layout_constraintEnd_toEndOf="@+id/imageViewSmenaParol"
+        app:layout_constraintStart_toStartOf="@+id/imageViewSmenaParol"
+        app:layout_constraintTop_toTopOf="@+id/imageViewSmenaParol" />
+
+    <TextView
+        android:id="@+id/textViewNastroiki"
+        android:layout_width="245dp"
+        android:layout_height="84dp"
+        android:layout_marginBottom="24dp"
+        android:fontFamily="@font/tiny5regular"
+        android:gravity="center"
+        android:text='Настройки'
+        android:textColor="@color/black"
+        android:textSize="50sp"
+        app:layout_constraintBottom_toBottomOf="@+id/imageViewNastroiki"
+        app:layout_constraintEnd_toEndOf="@+id/imageViewNastroiki"
+        app:layout_constraintStart_toStartOf="@+id/imageViewNastroiki"
+        app:layout_constraintTop_toTopOf="@+id/imageViewNastroiki" />
+
+
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/frameLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent">
+
+        <ImageView
+            android:id="@+id/imageView9"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.0"
+            app:srcCompat="@drawable/niz_palka_niz" />
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/knopka2" />
+
+        <ImageView
+            android:id="@+id/imageView228"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/imageView"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/knopka2" />
+
+        <ImageView
+            android:id="@+id/imageView229"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/imageView228"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/knopka2" />
+
+        <ImageView
+            android:id="@+id/imageView230"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/imageView229"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/knopka2" />
+
+        <ImageView
+            android:id="@+id/imageView210"
+            android:layout_width="90dp"
+            android:layout_height="60dp"
+            app:srcCompat="@drawable/zvezda"
+            android:layout_marginStart="13dp"
+            android:layout_marginBottom="3dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"/>
+
+        <ImageView
+            android:id="@+id/imageView22"
+            android:layout_width="67dp"
+            android:layout_height="67dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/imageView210"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/zadania"
+            android:layout_marginStart="20dp"
+            android:layout_marginBottom="3dp"/>
+
+        <ImageView
+            android:id="@+id/imageView23"
+            android:layout_width="105dp"
+            android:layout_height="60dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/imageView22"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/chat"
+            android:layout_marginStart="10dp"/>
+
+        <ImageView
+            android:id="@+id/imageView24"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/imageView229"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/bot"
+            android:layout_marginStart="28dp"/>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

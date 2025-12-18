@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:id="@+id/main"
+    android:layout_height="match_parent"
+    android:background="@color/fiol">
+
+    <ImageView
+        android:id="@+id/imageViewFon"
+        android:layout_width="373dp"
+        android:layout_height="445dp"
+        android:layout_marginTop="16dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textViewHeader"
+        app:srcCompat="@drawable/fon2" />
+
+    <com.google.android.material.imageview.ShapeableImageView
+        android:id="@+id/imageViewVxodButton"
+        android:layout_width="200dp"
+        android:layout_height="57dp"
+        android:layout_marginBottom="70dp"
+        app:cornerRadius="10dp"
+        app:layout_constraintBottom_toBottomOf="@+id/imageViewFon"
+        app:layout_constraintEnd_toEndOf="@+id/imageViewFon"
+        app:layout_constraintStart_toStartOf="@+id/imageViewFon"
+        app:srcCompat="@drawable/vxod_vxod"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/textViewVxodNiz"
+        android:layout_width="100dp"
+        android:layout_height="68dp"
+        android:layout_marginBottom="16dp"
+        android:fontFamily="@font/tiny5regular"
+        android:text='@string/n5'
+        android:textColor="@color/white"
+        android:textSize="40dp"
+        app:layout_constraintBottom_toBottomOf="@+id/imageViewVxodButton"
+        app:layout_constraintEnd_toEndOf="@+id/imageViewVxodButton"
+        app:layout_constraintStart_toStartOf="@+id/imageViewVxodButton"
+        app:layout_constraintTop_toTopOf="@+id/imageViewVxodButton" />
+
+    <ImageView
+        android:id="@+id/imageViewVxodPlaka"
+        android:layout_width="300dp"
+        android:layout_height="170dp"
+        android:layout_marginTop="16dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/imageViewFon"
+        app:srcCompat="@drawable/fon_zadanii" />
+
+    <TextView
+        android:id="@+id/textViewHeader"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="80dp"
+        android:fontFamily="@font/tiny5regular"
+        android:gravity="center"
+        android:text='Регистрация в приложении'
+        android:textColor="@color/black"
+        android:textSize="40dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textViewLogin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:fontFamily="@font/tiny5regular"
+        android:text='Логин'
+        android:textColor="@color/black"
+        android:textSize="35dp"
+        app:layout_constraintEnd_toEndOf="@+id/imageViewFon"
+        app:layout_constraintStart_toStartOf="@+id/imageViewFon"
+        app:layout_constraintTop_toTopOf="@+id/imageViewFon" />
+
+
+    <EditText
+        android:id="@+id/textViewVxodLineEdit"
+        android:layout_width="200dp"
+        android:layout_height="40dp"
+        app:layout_constraintBottom_toBottomOf="@+id/imageViewVxodPlaka"
+        app:layout_constraintEnd_toEndOf="@+id/imageViewVxodPlaka"
+        app:layout_constraintStart_toStartOf="@+id/imageViewVxodPlaka"
+        app:layout_constraintTop_toTopOf="@+id/imageViewVxodPlaka" />
+
+    <ImageView
+        android:id="@+id/imageViewParolPalka"
+        android:layout_width="300dp"
+        android:layout_height="170dp"
+        android:layout_marginTop="16dp"
+        app:layout_constraintEnd_toEndOf="@+id/imageViewFon"
+        app:layout_constraintStart_toStartOf="@+id/imageViewFon"
+        app:layout_constraintTop_toBottomOf="@+id/textViewVxodLineEdit"
+        app:srcCompat="@drawable/fon_zadanii" />
+
+    <TextView
+        android:id="@+id/textViewParol"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/tiny5regular"
+        android:text='@string/n6'
+        android:textColor="@color/black"
+        android:textSize="35dp"
+        app:layout_constraintEnd_toEndOf="@+id/imageViewFon"
+        app:layout_constraintStart_toStartOf="@+id/imageViewFon"
+        app:layout_constraintTop_toBottomOf="@+id/textViewVxodLineEdit" />
+
+    <EditText
+        android:id="@+id/textViewParolLineEdit"
+        android:layout_width="200dp"
+        android:layout_height="40dp"
+        android:inputType="textPassword"
+        app:layout_constraintBottom_toBottomOf="@+id/imageViewParolPalka"
+        app:layout_constraintEnd_toEndOf="@+id/imageViewParolPalka"
+        app:layout_constraintStart_toStartOf="@+id/imageViewParolPalka"
+        app:layout_constraintTop_toTopOf="@+id/imageViewParolPalka" />
+
+    <ImageView
+        android:id="@+id/imageViewPerexod"
+        android:layout_width="224dp"
+        android:layout_height="30dp"
+        android:layout_marginBottom="100dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/___" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

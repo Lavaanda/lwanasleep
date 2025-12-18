@@ -1,0 +1,19 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <style name="Base.Theme.Mobilki_iyoyyy"
+        parent="Theme.Material3.Light.NoActionBar">
+
+        <item name="colorPrimary">@color/temfiol2</item>
+        <item name="colorOnPrimary">@color/white</item>
+
+        <item name="android:windowBackground">@color/bg</item>
+        <item name="android:statusBarColor">@color/white</item>
+        <item name="android:navigationBarColor">@color/white</item>
+
+    </style>
+
+    <style name="Theme.Mobilki_iyoyyy"
+        parent="Base.Theme.Mobilki_iyoyyy" />
+
+
+</resources>

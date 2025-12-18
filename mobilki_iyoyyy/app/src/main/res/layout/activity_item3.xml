@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_height="wrap_content">
+
+    <ImageView
+        android:id="@+id/comments"
+        android:layout_width="337dp"
+        android:layout_height="35dp"
+        android:layout_marginTop="16dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/message"
+        app:srcCompat="@drawable/comments"
+        android:clickable="true"
+        android:focusable="true"/>
+
+    <ImageView
+        android:id="@+id/message"
+        android:layout_width="380dp"
+        android:layout_height="439dp"
+        android:layout_marginEnd="32dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/fon_message" />
+
+    <TextView
+        android:id="@+id/textLoginUser"
+        android:layout_width="160dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="40dp"
+        android:layout_marginBottom="260dp"
+        android:fontFamily="@font/tiny5regular"
+        android:gravity="center"
+        android:text='Laviki_vpereeed'
+        android:textColor="@color/black"
+        android:textSize="30sp"
+        app:layout_constraintBottom_toBottomOf="@+id/message"
+        app:layout_constraintEnd_toEndOf="@+id/message"
+        app:layout_constraintStart_toStartOf="@+id/message"
+        app:layout_constraintTop_toTopOf="@+id/message" />
+
+    <TextView
+        android:id="@+id/justName"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:layout_marginBottom="16dp"
+        android:fontFamily="@font/tiny5regular"
+        android:gravity="center"
+        android:text='Комментарии'
+        android:textColor="@color/black"
+        android:textSize="25sp"
+        app:layout_constraintBottom_toBottomOf="@+id/comments"
+        app:layout_constraintEnd_toEndOf="@+id/comments"
+        app:layout_constraintStart_toStartOf="@+id/comments"
+        app:layout_constraintTop_toTopOf="@+id/comments" />
+
+    <TextView
+        android:id="@+id/textMessage"
+        android:layout_width="315dp"
+        android:layout_height="290dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="5dp"
+        android:gravity="center"
+        android:text='TextMessage'
+        android:textColor="@color/black"
+        android:textSize="30sp"
+        app:layout_constraintEnd_toEndOf="@+id/message"
+        app:layout_constraintStart_toStartOf="@+id/message"
+        app:layout_constraintTop_toBottomOf="@+id/textLoginUser" />
+
+    <!--        android:fontFamily="@font/tiny5regular"-->
+</androidx.constraintlayout.widget.ConstraintLayout>

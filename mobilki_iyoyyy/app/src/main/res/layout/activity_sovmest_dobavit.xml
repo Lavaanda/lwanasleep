@@ -1,0 +1,312 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="@color/fiol">
+
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/frameLayout2"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <ImageView
+            android:id="@+id/imageView4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:srcCompat="@drawable/palka_verx"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintEnd_toEndOf="parent" />
+
+        <ImageView
+            android:id="@+id/imageView6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="85dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/imageView4"
+            app:srcCompat="@drawable/palka_niz" />
+
+        <ImageView
+            android:id="@+id/imageView17"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="115dp"
+            android:layout_marginTop="55dp"
+            app:srcCompat="@drawable/seredina"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <ImageView
+            android:id="@+id/imageView8"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_marginEnd="16dp"
+            android:layout_marginTop="16dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/kryg_zenhina"
+            tools:layout_editor_absoluteX="46dp"
+            tools:layout_editor_absoluteY="3dp" />
+
+        <ImageView
+            android:id="@+id/imageView12"
+            android:layout_width="97dp"
+            android:layout_height="65dp"
+            android:layout_marginTop="16dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/palki_emae" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/frameLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent">
+
+        <ImageView
+            android:id="@+id/imageView9"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.0"
+            app:srcCompat="@drawable/niz_palka_niz" />
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/knopka2" />
+
+        <ImageView
+            android:id="@+id/imageView228"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/imageView"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/knopka2" />
+
+        <ImageView
+            android:id="@+id/imageView229"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/imageView228"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/knopka2" />
+
+        <ImageView
+            android:id="@+id/imageView230"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/imageView229"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/knopka2" />
+
+        <ImageView
+            android:id="@+id/imageView210"
+            android:layout_width="90dp"
+            android:layout_height="60dp"
+            app:srcCompat="@drawable/zvezda"
+            android:layout_marginStart="13dp"
+            android:layout_marginBottom="3dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"/>
+
+        <ImageView
+            android:id="@+id/imageView22"
+            android:layout_width="67dp"
+            android:layout_height="67dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/imageView210"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/zadania"
+            android:layout_marginStart="20dp"
+            android:layout_marginBottom="3dp"/>
+
+        <ImageView
+            android:id="@+id/imageView23"
+            android:layout_width="105dp"
+            android:layout_height="60dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/imageView22"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/chat"
+            android:layout_marginStart="10dp"/>
+
+        <ImageView
+            android:id="@+id/imageView24"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/imageView229"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/bot"
+            android:layout_marginStart="28dp"/>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <ImageView
+        android:id="@+id/imageView68"
+        android:layout_width="350dp"
+        android:layout_height="390dp"
+        android:layout_marginTop="32dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView72"
+        app:srcCompat="@drawable/fon_pracric" />
+
+    <ImageView
+        android:id="@+id/imageView71"
+        android:layout_width="281dp"
+        android:layout_height="93dp"
+        android:layout_marginTop="32dp"
+        app:layout_constraintEnd_toEndOf="@+id/imageView68"
+        app:layout_constraintStart_toStartOf="@+id/imageView68"
+        app:layout_constraintTop_toTopOf="@+id/imageView68"
+        app:srcCompat="@drawable/text_practic" />
+
+    <ImageView
+        android:id="@+id/imageView722"
+        android:layout_width="281dp"
+        android:layout_height="93dp"
+        android:layout_marginTop="80dp"
+        app:layout_constraintEnd_toEndOf="@+id/imageView68"
+        app:layout_constraintStart_toStartOf="@+id/imageView68"
+        app:layout_constraintTop_toBottomOf="@+id/imageView71"
+        app:srcCompat="@drawable/id_friend_project_practic" />
+
+    <ImageView
+        android:id="@+id/imageView72"
+        android:layout_width="328dp"
+        android:layout_height="102dp"
+        android:layout_marginTop="24dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/frameLayout2"
+        app:srcCompat="@drawable/title_practic" />
+
+    <TextView
+        android:id="@+id/textLogin"
+        android:layout_width="226dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:fontFamily="@font/tiny5regular"
+        android:gravity="center"
+        android:text='Добавить друга'
+        android:textColor="@color/white"
+        android:textSize="36sp"
+        app:layout_constraintBottom_toBottomOf="@+id/imageView72"
+        app:layout_constraintEnd_toEndOf="@+id/imageView72"
+        app:layout_constraintStart_toStartOf="@+id/imageView72"
+        app:layout_constraintTop_toTopOf="@+id/imageView72" />
+
+    <TextView
+        android:id="@+id/textL"
+        android:layout_width="226dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:fontFamily="@font/tiny5regular"
+        android:gravity="center"
+        android:text='Команда из 2 чел.'
+        android:textColor="@color/white"
+        android:textSize="34sp"
+        app:layout_constraintBottom_toBottomOf="@+id/imageView71"
+        app:layout_constraintEnd_toEndOf="@+id/imageView71"
+        app:layout_constraintStart_toStartOf="@+id/imageView71"
+        app:layout_constraintTop_toTopOf="@+id/imageView71" />
+
+    <TextView
+        android:id="@+id/textL2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="32dp"
+        android:fontFamily="@font/tiny5regular"
+        android:gravity="center"
+        android:text='id_user'
+        android:textColor="@color/white"
+        android:textSize="30sp"
+        app:layout_constraintStart_toStartOf="@+id/imageView722"
+        app:layout_constraintTop_toTopOf="@+id/imageView722" />
+
+    <EditText
+        android:id="@+id/editTextMessage"
+        android:layout_width="235dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:backgroundTint="@color/white"
+        android:textColor="@color/white"
+        app:layout_constraintBottom_toBottomOf="@+id/imageView722"
+        app:layout_constraintEnd_toEndOf="@+id/imageView722"
+        app:layout_constraintStart_toStartOf="@+id/imageView722"
+        app:layout_constraintTop_toBottomOf="@+id/textL2" />
+
+    <ImageView
+        android:id="@+id/btnAddFriendToProject"
+        android:layout_width="180dp"
+        android:layout_height="61dp"
+        android:layout_marginTop="16dp"
+        app:layout_constraintEnd_toEndOf="@+id/imageView68"
+        app:layout_constraintStart_toStartOf="@+id/imageView68"
+        app:layout_constraintTop_toBottomOf="@+id/imageView722"
+        app:srcCompat="@drawable/vxod_vxod" />
+
+    <TextView
+        android:id="@+id/textL22"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:fontFamily="@font/tiny5regular"
+        android:gravity="center"
+        android:text='Добавить'
+        android:textColor="@color/white"
+        android:textSize="23sp"
+        app:layout_constraintBottom_toBottomOf="@+id/btnAddFriendToProject"
+        app:layout_constraintEnd_toEndOf="@+id/btnAddFriendToProject"
+        app:layout_constraintStart_toStartOf="@+id/btnAddFriendToProject"
+        app:layout_constraintTop_toTopOf="@+id/btnAddFriendToProject" />
+
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/friendsRecycler"
+        android:visibility="gone"
+        android:background="@drawable/friend_rec"
+        android:layout_width="381dp"
+        android:layout_height="210dp"
+        android:layout_marginTop="8dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView722" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="fiol">#A698FF</color>
+    <color name="temfiol">#483D8B</color>
+    <color name="temfiol2">#A8A8FF</color>
+    <color name="bg">#FFFFFF</color>
+    <color name="text">#000000</color>
+
+
+</resources>

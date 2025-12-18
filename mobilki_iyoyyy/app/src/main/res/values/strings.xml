@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">mobilki_iyoyyy</string>
+    <string name="name2">Раздел заданий</string>
+    <string name="n1">Теория MYSQL</string>
+    <string name="n2">Практика MYSQL</string>
+    <string name="n3">Совместные проекты</string>
+    <string name="n4">Вход в приложение</string>
+    <string name="n5">Вход</string>
+    <string name="n6">Пароль</string>
+    <string name="n7">Логин</string>
+</resources>

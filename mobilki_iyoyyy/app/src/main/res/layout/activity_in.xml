@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/main"
+    android:background="@color/fiol">
+
+
+    <ImageView
+        android:id="@+id/imageViewFon"
+        android:layout_width="370dp"
+        android:layout_height="360dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textViewHeader"
+        app:srcCompat="@drawable/vxod" />
+
+    <ImageView
+        android:id="@+id/imageViewZENHINA"
+        android:layout_width="300dp"
+        android:layout_height="305dp"
+        android:layout_marginLeft="-120dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/zenhina222" />
+
+    <com.google.android.material.imageview.ShapeableImageView
+        android:id="@+id/imageViewVxodButton"
+        android:layout_width="200dp"
+        android:layout_height="57dp"
+        android:layout_marginStart="105dp"
+        android:layout_marginTop="-30dp"
+        app:cornerRadius="10dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageViewParolPalka"
+        app:srcCompat="@drawable/vxod_vxod" />
+
+    <TextView
+        android:id="@+id/textViewVxodNiz"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:fontFamily="@font/tiny5regular"
+        android:text='@string/n5'
+        android:textColor="@color/white"
+        android:textSize="40dp"
+        app:layout_constraintBottom_toBottomOf="@+id/imageViewVxodButton"
+        app:layout_constraintEnd_toEndOf="@+id/imageViewVxodButton"
+        app:layout_constraintStart_toStartOf="@+id/imageViewVxodButton"
+        app:layout_constraintTop_toTopOf="@+id/imageViewVxodButton" />
+
+    <ImageView
+        android:id="@+id/imageViewVxodPlaka"
+        android:layout_width="300dp"
+        android:layout_height="170dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/imageViewFon"
+        app:srcCompat="@drawable/fon_zadanii" />
+
+    <TextView
+        android:id="@+id/textViewVxod"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/tiny5regular"
+        android:text='Логин'
+        android:textColor="@color/black"
+        android:textSize="35dp"
+        app:layout_constraintEnd_toEndOf="@+id/imageViewVxodPlaka"
+        app:layout_constraintStart_toStartOf="@+id/imageViewVxodPlaka"
+        app:layout_constraintTop_toTopOf="@+id/imageViewFon" />
+
+    <TextView
+        android:id="@+id/textViewHeader"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="130dp"
+        android:fontFamily="@font/tiny5regular"
+        android:text='@string/n4'
+        android:textColor="@color/black"
+        android:textSize="40dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageViewParolPalka"
+        android:layout_width="300dp"
+        android:layout_height="170dp"
+        android:layout_marginTop="10dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textViewVxodLineEdit"
+        app:srcCompat="@drawable/fon_zadanii" />
+
+    <TextView
+        android:id="@+id/textViewParol"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="-50dp"
+        android:fontFamily="@font/tiny5regular"
+        android:text='@string/n6'
+        android:textColor="@color/black"
+        android:textSize="35dp"
+        app:layout_constraintEnd_toEndOf="@+id/imageViewParolPalka"
+        app:layout_constraintStart_toStartOf="@+id/imageViewParolPalka"
+        app:layout_constraintTop_toBottomOf="@+id/imageViewVxodPlaka" />
+
+    <EditText
+        android:id="@+id/textViewParolLineEdit"
+        android:layout_width="200dp"
+        android:layout_height="48dp"
+        android:layout_marginTop="-9dp"
+        android:inputType="textPassword"
+        app:layout_constraintEnd_toEndOf="@+id/imageViewParolPalka"
+        app:layout_constraintStart_toStartOf="@+id/imageViewParolPalka"
+        app:layout_constraintTop_toBottomOf="@+id/textViewParol" />
+
+    <EditText
+        android:id="@+id/textViewVxodLineEdit"
+        android:layout_width="200dp"
+        android:layout_height="48dp"
+        android:layout_marginTop="-5dp"
+        app:layout_constraintEnd_toEndOf="@+id/imageViewVxodPlaka"
+        app:layout_constraintStart_toStartOf="@+id/imageViewVxodPlaka"
+        app:layout_constraintTop_toBottomOf="@+id/textViewVxod" />
+
+    <TextView
+        android:id="@+id/textViewVxodв"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:fontFamily="@font/tiny5regular"
+        android:text='Забыли пароль?'
+        android:textColor="@color/black"
+        android:textSize="25dp"
+        android:clickable="true"
+        android:focusable="true"
+        app:layout_constraintBottom_toBottomOf="@+id/imageViewFon"
+        app:layout_constraintEnd_toEndOf="@+id/imageViewFon" />
+
+    <TextView
+        android:id="@+id/ghostUser"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="3dp"
+        android:layout_marginBottom="12dp"
+        android:clickable="true"
+        android:focusable="true"
+        android:fontFamily="@font/tiny5regular"
+        android:text='Вход как гость'
+        android:textColor="@color/white"
+        android:textSize="25dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <TextView
+        android:id="@+id/butReg"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="16dp"
+        android:clickable="true"
+        android:focusable="true"
+        android:fontFamily="@font/tiny5regular"
+        android:text='Нет аккаунта?\nРегистрация!'
+        android:textColor="@color/white"
+        android:textSize="25dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageViewFon" />
+
+    <ImageView
+        android:id="@+id/imageGoogle"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_marginEnd="16dp"
+        android:src="@drawable/chatgpt_image_23___2025____20_07_18"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/butReg" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
